@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html body{
+  background-color: rgb(26, 134, 134);
+}
+.clock{
+  margin-top: 10%;
+  text-align: center;
+  color: #fff;
+}
+.label-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 5%;
+  color: #fff;
+  /* margin: 10%; */
+}
+#break-label{
+  margin-right: 5%
+}  
+.label-in-de{
+   display: flex; 
+   flex-direction: row;
+   padding: 10%;
+}
+.session-in-de{
+  display: flex; 
+   flex-direction: row;
+   padding: 10%
+}
+
+#timer-label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border:  2px solid black;
+  border-radius:50px;
+  width: 400px;
+  margin-left: 35%; 
+  color: #fff;
+}
+p{
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.arrow{
+background-color: rgb(125, 125, 50);
+}
+
+.button-style{
+  border: 0;
+  background-color: transparent;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.reset-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 5%;
+  padding: 10px;
+  color: #fff;
+
+  
+}
+.play-reset{
+   padding: 100px;
+}
+button{
+  border: 0;
+  background-color: transparent;
+  margin: 20px;
+  padding: 10px;
+}
+.b{
+  background-color: aqua;
+}
